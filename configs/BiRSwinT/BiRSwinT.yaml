@@ -1,0 +1,20 @@
+MODEL:
+    TYPE: swin
+    NAME: BiRSwinT
+    DROP_PATH_RATE: 0.3
+    SWIN:
+        EMBED_DIM: 96
+        DEPTHS: [2, 2, 18, 2]
+        NUM_HEADS: [3, 6, 12, 24]
+        WINDOW_SIZE: 7
+DATA:
+    TRAIN_DATASET_DIR: AUCCamera/train
+    VALID_DATASET_DIR: AUCCamera/val
+    SWIN_TRANSFORMER_CHECKPOINT_PATH: ckpt_epoch_44.pth
+TRAIN:
+    NUM_EPOCHS: 63
+ROUNDS:
+    - ADJUSTABLE: false
+      LEARNING_RATE: 3.0e-4
+    - ADJUSTABLE: true
+      LEARNING_RATE: 3.0e-6

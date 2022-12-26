@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Train",
+            "type": "python",
+            "request": "launch",
+            "program": "train_valid.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": ["--cfg=configs/BiRSwinT/BiRSwinT.yaml"],
+        }
+    ]
+}
