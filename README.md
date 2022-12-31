@@ -1,12 +1,12 @@
 # BiRSwinT
 
-This repo is the official implementation of ["BiRSwinT: Bilinear Full-Scale Residual Swin-Transformer for Fine-Grained Driver Behavior Recognition"]. It currently includes code and models for the following tasks:
+This repo is the official implementation of ["BiRSwinT: Bilinear Full-Scale Residual Swin-Transformer for Fine-Grained Driver Behavior Recognition"](https://www.sciencedirect.com/science/article/abs/pii/S0016003222008857?via%3Dihub). It currently includes code and models for the following tasks:
 
 > **Image Classification**: Included in this repo. See [get_started.md](get_started.md) for a quick start.
 
-
 ## Updates
-***12/26/2022***
+
+**_12/26/2022_**
 
 Initial commits:
 
@@ -15,19 +15,18 @@ Initial commits:
 
 ## Introduction
 
-**BiRSwinT** 	The bilinear fusion method can solve the fine-grained recognition problem to a certain extent.
-	After getting the deep descriptors of an image, bilinear pooling computes the sum of the outer 
-	product of those deep descriptors. Bilinear pooling captures all pairwise descriptor interactions,
-	 i.e., interactions of different part.
+**BiRSwinT** The bilinear fusion method can solve the fine-grained recognition problem to a certain extent.
+After getting the deep descriptors of an image, bilinear pooling computes the sum of the outer
+product of those deep descriptors. Bilinear pooling captures all pairwise descriptor interactions,
+i.e., interactions of different part.
 
-	This project aims at solving the problem of poor fine-grained characterization of a single 
-	Swin-Transformer model in driver distraction tasks.We interpret the two branches of the bilinear 
-	model as the global feature branch and the local feature branch, respectively, with the global branch 
-	applying the Swin-Transformer-S model and the local branch applying the Dense-Swin-Transformer model 
-	with residuals between Stages.
+    This project aims at solving the problem of poor fine-grained characterization of a single
+    Swin-Transformer model in driver distraction tasks.We interpret the two branches of the bilinear
+    model as the global feature branch and the local feature branch, respectively, with the global branch
+    applying the Swin-Transformer-S model and the local branch applying the Dense-Swin-Transformer model
+    with residuals between Stages.
 
 ![teaser](figures/teaser.png)
-
 
 ## Citing BiRSwinT
 
@@ -42,4 +41,4 @@ Initial commits:
 
 ## Getting Started
 
-- For **Image Classification**, please see [get_started.md](get_started.md) for detailed instructions.
+-   For **Image Classification**, please see [get_started.md](get_started.md) for detailed instructions.
