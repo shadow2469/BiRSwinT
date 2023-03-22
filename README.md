@@ -31,11 +31,17 @@ i.e., interactions of different part.
 ## Citing BiRSwinT
 
 ```
-@inproceedings{Yang2022BiRSwinT,
-  title={BiRSwinT: Bilinear Full-Scale Residual Swin-Transformer for Fine-Grained Driver Behavior Recognition},
-  author={Yang, Wenxuan and Tan, Chenghao and Chen, Yuxin and Xia, Huang and Tang, Xuexi and Cao, Yifan and Zhou, Wenhui and Lin, Lili},
-  booktitle={Journal of the Franklin Institute},
-  year={2022}
+@article{YANG20231166,
+title = {BiRSwinT: Bilinear full-scale residual swin-transformer for fine-grained driver behavior recognition},
+journal = {Journal of the Franklin Institute},
+volume = {360},
+number = {2},
+pages = {1166-1183},
+year = {2023},
+issn = {0016-0032},
+doi = {https://doi.org/10.1016/j.jfranklin.2022.12.016},
+url = {https://www.sciencedirect.com/science/article/pii/S0016003222008857},
+author = {Wenxuan Yang and Chenghao Tan and Yuxin Chen and Huang Xia and Xuexi Tang and Yifan Cao and Wenhui Zhou and Lili Lin and Guojun Dai}
 }
 ```
 
