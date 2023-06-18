@@ -28,6 +28,10 @@ i.e., interactions of different part.
 
 ![teaser](figures/teaser.png)
 
+## Preparing the Model Data
+
+There are two checkpoints in BiRSwinT.py where we need to use some pre-trained model files.You can download these two files from here: https://huggingface.co/Pluto2469/BiRSwinT/blob/main/
+
 ## Citing BiRSwinT
 
 ```
