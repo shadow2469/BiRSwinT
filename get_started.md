@@ -8,7 +8,7 @@ Before we get started, we need to download two pretrained model files.
 
 In [BiRSwinT.py](BiRSwinT.py), there are two checkpoints where we need to use these files.
 
-![BirSwinT.png](figures/BirSwinT.png)
+![BiRSwinT.png](figures/BiRSwinT.png)
 
 1. **config.DATA.SWIN_TRANSFORMER_CHECKPOINT_PATH** - the default value of this config is `ckpt_epoch_44.pth`
 
@@ -56,9 +56,9 @@ After we obtained the dataset, we need to prepare the training and validation da
 If you prefer to run the code in your conda or virtual environment, rather than a Docker container or a virtual machine,
 you can simply install the requirements using pip and then execute [run.sh](run.sh).
 
-   ```shell
-   pip install -r requirements.txt
-   ```
+```shell
+pip install -r requirements.txt
+```
 
 ### Recommended Method: Running in Docker
 
@@ -74,7 +74,7 @@ run the code in Docker.
 
    ```shell
    docker run -it --gpus=all -v /mnt/e/BirSwinT:/BirSwinT birswint:base /bin/bash
-    ```
+   ```
 
    Replace `/mnt/e/BirSwinT` with the path of your own project folder.
 
