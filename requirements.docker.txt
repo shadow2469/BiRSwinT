@@ -1,0 +1,9 @@
+numpy==1.23.4
+olefile==0.46
+PyYAML==6.0
+six==1.16.0
+timm==0.3.2
+typing_extensions==4.4.0
+yacs==0.1.8
+Pillow==8.3.1
+wheel==0.38.4

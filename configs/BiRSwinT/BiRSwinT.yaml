@@ -7,6 +7,13 @@ MODEL:
         DEPTHS: [2, 2, 18, 2]
         NUM_HEADS: [3, 6, 12, 24]
         WINDOW_SIZE: 7
+        PATCH_SIZE: 4
+        IN_CHANS: 3
+        MLP_RATIO: 4
+        QKV_BIAS: true
+        QK_SCALE: null
+        APE: false
+        PATCH_NORM: true
 DATA:
     TRAIN_DATASET_DIR: AUCCamera/train
     VALID_DATASET_DIR: AUCCamera/val

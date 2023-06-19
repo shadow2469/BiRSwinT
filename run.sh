@@ -1,0 +1,1 @@
+python train_valid.py --cfg=configs/BiRSwinT/BiRSwinT.yaml
