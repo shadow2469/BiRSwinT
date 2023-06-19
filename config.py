@@ -63,6 +63,19 @@ _C.MODEL.DROP_PATH_RATE = 0.1
 # Label Smoothing
 _C.MODEL.LABEL_SMOOTHING = 0.1
 
+_C.MODEL.SWIN = CN()
+_C.MODEL.SWIN.EMBED_DIM = 96
+_C.MODEL.SWIN.DEPTHS = []
+_C.MODEL.SWIN.NUM_HEADS = []
+_C.MODEL.SWIN.WINDOW_SIZE = 7
+_C.MODEL.SWIN.PATCH_SIZE = 4
+_C.MODEL.SWIN.IN_CHANS = 3
+_C.MODEL.SWIN.MLP_RATIO = 4
+_C.MODEL.SWIN.QKV_BIAS = True
+_C.MODEL.SWIN.QK_SCALE = None
+_C.MODEL.SWIN.APE = False
+_C.MODEL.SWIN.PATCH_NORM = True
+
 # -----------------------------------------------------------------------------
 # Training settings
 # -----------------------------------------------------------------------------
